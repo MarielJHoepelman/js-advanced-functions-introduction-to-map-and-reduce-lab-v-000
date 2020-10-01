@@ -36,9 +36,10 @@ function mapToDouble(collection){
 
 const mapToSquare = collection => {
   const newCollection = [];
-    for (const element of collection) {
-      newCollection.push(element * element);
-  };
+  //   for (const element of collection) {
+  //     newCollection.push(element * element);
+  // };
+  collection.forEach(element => {element * element})
   return newCollection;
 };
 
@@ -51,8 +52,9 @@ const mapToSquare = collection => {
 const reduceToTotal = (collection, startingPoint = 0) => {
   for (const element of collection) {
     startingPoint = element
-    startingPoint + element 
+    startingPoint + element
   }
+  return star
 }
 
 const reduceToTotal = collection => {

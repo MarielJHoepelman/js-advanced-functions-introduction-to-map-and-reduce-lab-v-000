@@ -38,16 +38,9 @@ const mapToSquare = collection => {
   const newCollection = [];
     for (const element of collection) {
       newCollection.push(element * element)
-  }
-  return newCollection
-}
-// function mapToSquare(collection){
-//   const newCollection = [];
-//     for (const element of collection) {
-//       newCollection.push(element * element)
-//     }
-//     return newCollection
-// }
+  };
+  return newCollection;
+};
 
 const reduceToTotal = (collection, startingPoint = 0) => {
   return collection.reduce((total, value) => {

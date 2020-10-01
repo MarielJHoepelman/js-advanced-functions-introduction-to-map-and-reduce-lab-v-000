@@ -39,7 +39,7 @@ const mapToSquare = collection => {
     for (const element of collection) {
       newCollection.push(element * element)
   }
-  newCollection
+  return newCollection
 }
 // function mapToSquare(collection){
 //   const newCollection = [];

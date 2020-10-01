@@ -6,7 +6,9 @@ const mapToNegativize = collection => collection.map(x => x * -1);
 // no {} = implicit return
 
 function mapToNegativize(collection){
-    
+    for (const element in collection) {
+      console.log(element)
+    }
 }
 
 const mapToNoChange = collection => collection.map(x => x);

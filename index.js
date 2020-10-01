@@ -42,11 +42,11 @@ const mapToSquare = collection => {
   return newCollection;
 };
 
-const reduceToTotal = (collection, startingPoint = 0) => {
-  return collection.reduce((total, value) => {
-    return total + value;
-  }, startingPoint);
-}
+// const reduceToTotal = (collection, startingPoint = 0) => {
+//   return collection.reduce((total, value) => {
+//     return total + value;
+//   }, startingPoint);
+// }
 
 
 const reduceToTotal = collection => {

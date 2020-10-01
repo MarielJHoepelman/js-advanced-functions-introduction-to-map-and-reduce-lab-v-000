@@ -35,7 +35,7 @@ function mapToDouble(collection){
 // const mapToSquare = collection => collection.map(x => x * x);
 
 const mapToSquare = collection => {
-
+  const newCollection = [];
 }
 // function mapToSquare(collection){
 //   const newCollection = [];

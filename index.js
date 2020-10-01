@@ -48,13 +48,13 @@ const mapToSquare = collection => {
 //   }, startingPoint);
 // }
 
-const reduceToTotal = (collection, startingPoint = 0) => {
-  for (const element of collection) {
-    startingPoint = element
-    startingPoint + element
-  }
-  return star
-}
+// const reduceToTotal = (collection, startingPoint = 0) => {
+//   for (const element of collection) {
+//     startingPoint = element
+//     startingPoint + element
+//   }
+//   return star
+// }
 
 // const reduceToTotal = collection => {
 //

@@ -56,9 +56,9 @@ const reduceToTotal = (collection, startingPoint = 0) => {
   return star
 }
 
-const reduceToTotal = collection => {
-
-}
+// const reduceToTotal = collection => {
+//
+// }
 
 const reduceToAllTrue = (collection) => {
   return collection.reduce((condition, element) => {

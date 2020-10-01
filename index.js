@@ -13,8 +13,14 @@ function mapToNegativize(collection){
     return newCollection
 }
 
-const mapToNoChange = collection => collection.map(x => x);
-
+// const mapToNoChange = collection => collection.map(x => x);
+function mapToNoChange(collection){
+  const newCollection = [];
+    for (const element of collection) {
+      newCollection.push(element)
+    }
+    return newCollection
+}
 const mapToDouble = collection => collection.map(x => x * 2);
 
 const mapToSquare = collection => collection.map(x => x * x);

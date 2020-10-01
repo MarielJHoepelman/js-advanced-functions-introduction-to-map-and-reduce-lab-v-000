@@ -21,7 +21,16 @@ function mapToNoChange(collection){
     }
     return newCollection
 }
-const mapToDouble = collection => collection.map(x => x * 2);
+
+// const mapToDouble = collection => collection.map(x => x * 2);
+
+function mapToDouble(collection){
+  const newCollection = [];
+    for (const element of collection) {
+      newCollection.push(element * 2)
+    }
+    return newCollection
+}
 
 const mapToSquare = collection => collection.map(x => x * x);
 

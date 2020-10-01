@@ -10,6 +10,7 @@ function mapToNegativize(collection){
     for (const element of collection) {
       newCollection.push(element * -1)
     }
+    return newCollection
 }
 
 const mapToNoChange = collection => collection.map(x => x);

@@ -1,6 +1,6 @@
 // Your code here
 //using map
-const mapToNegativize = collection => collection.map(x => x * -1);
+// const mapToNegativize = collection => collection.map(x => x * -1);
 // ES6 notation
 // if {} must include return
 // no {} = implicit return

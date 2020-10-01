@@ -32,7 +32,14 @@ function mapToDouble(collection){
     return newCollection
 }
 
-const mapToSquare = collection => collection.map(x => x * x);
+// const mapToSquare = collection => collection.map(x => x * x);
+function mapToSquare(collection){
+  const newCollection = [];
+    for (const element of collection) {
+      newCollection.push(element * element)
+    }
+    return newCollection
+}
 
 const reduceToTotal = (collection, startingPoint = 0) => {
   return collection.reduce((total, value) => {

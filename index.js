@@ -55,8 +55,9 @@ const reduceToTotal = (collection, startingPoint = 0) => {
   }, startingPoint);
 }
 
+
 const reduceToTotal = collection => {
-  
+
 }
 
 const reduceToAllTrue = (collection) => {

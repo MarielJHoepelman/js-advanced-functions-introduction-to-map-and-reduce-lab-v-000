@@ -92,6 +92,7 @@ const reduceToAnyTrue = collection => {
       break;
     } else {
       // condition = false;
+      
       return false;
     }
   });

@@ -94,5 +94,6 @@ const reduceToAnyTrue = collection => {
     //   condition = false;
     }
   });
+  console.log('HERE')
   return false;
 }

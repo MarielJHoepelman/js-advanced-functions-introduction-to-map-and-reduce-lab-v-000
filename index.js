@@ -67,6 +67,7 @@ const reduceToTotal = (collection, startingPoint = 0) => {
 
 const reduceToAllTrue = collection => {
   let condition;
+  
   collecion.forEach(element => {
     console.log("here")
   });

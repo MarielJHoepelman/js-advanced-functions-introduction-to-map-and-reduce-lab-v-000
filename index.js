@@ -76,7 +76,7 @@ const reduceToAllTrue = collection => {
   });
   return condition;
 }
-// 
+//
 // const reduceToAnyTrue = (collection) => {
 //   return collection.reduce((condition, element) => {
 //     return condition || !!element;
@@ -86,6 +86,10 @@ const reduceToAllTrue = collection => {
 const reduceToAnyTrue = collection => {
   let condition;
   collection.forEach(element => {
-    console.log(element)
+    if (!!element) {
+      condition = true;
+      break
+    }
+    return condition;
   });
 }

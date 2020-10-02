@@ -33,6 +33,13 @@ function mapToDouble(collection){
     return newCollection
 }
 
+const mapToDouble = collection => {
+  const newCollection = [];
+  collection.forEach(element => {
+    newCollection.push(element * 2);
+  })
+}
+
 // const mapToSquare = collection => collection.map(x => x * x);
 
 const mapToSquare = collection => {

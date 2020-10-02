@@ -68,7 +68,7 @@ const reduceToTotal = (collection, startingPoint = 0) => {
 const reduceToAllTrue = collection => {
   let condition;
   collection.forEach(element => {
-    if (condition && !!element) {
+    if (!!element) {
       console.log(condition && !!element)
       console.log(condition)
       condition = true

@@ -75,7 +75,6 @@ const reduceToAllTrue = collection => {
     };
   });
   return condition
-  console.log(condition)
 }
 
 const reduceToAnyTrue = (collection) => {

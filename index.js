@@ -74,7 +74,7 @@ const reduceToAllTrue = collection => {
       condition = false;
     };
   });
-  return condition
+  return condition;
 }
 
 const reduceToAnyTrue = (collection) => {

@@ -5,19 +5,19 @@
 // if {} must include return
 // no {} = implicit return
 
-function mapToNegativize(collection){
-  const newCollection = [];
-    for (const element of collection) {
-      newCollection.push(element * -1)
-    }
-    return newCollection
-}
+// function mapToNegativize(collection){
+//   const newCollection = [];
+//     for (const element of collection) {
+//       newCollection.push(element * -1)
+//     }
+//     return newCollection
+// }
 
 const mapToNegativize = collection => {
   const newCollection = [];
   collection.forEach(element => {
     newCollection.push(element * -1);
-  })
+  });
   return newCollection;
 }
 // const mapToNoChange = collection => collection.map(x => x);

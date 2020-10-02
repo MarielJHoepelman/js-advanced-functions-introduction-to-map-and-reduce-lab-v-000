@@ -87,8 +87,7 @@ const reduceToAnyTrue = collection => {
   for( const element of collection) {
     if (!!element) {
       return true;
-    }
-  }
-
+    };
+  };
   return false;
 }

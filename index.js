@@ -13,6 +13,13 @@ function mapToNegativize(collection){
     return newCollection
 }
 
+const mapToNegativize = collection => {
+  const newCollection = [];
+  collection.forEach(element => {
+    newCollection.push(element * -1);
+  })
+  return newCollection;
+}
 // const mapToNoChange = collection => collection.map(x => x);
 function mapToNoChange(collection){
   const newCollection = [];

@@ -61,7 +61,6 @@ const reduceToTotal = (collection, startingPoint = 0) => {
   return result;
 }
 
-
 // const reduceToAllTrue = (collection) => {
 //   return collection.reduce((condition, element) => {
 //     return condition && !!element;

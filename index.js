@@ -84,12 +84,11 @@ const reduceToAllTrue = collection => {
 // }
 
 const reduceToAnyTrue = collection => {
-  let condition;
   collection.forEach(element => {
     if (!!element) {
-      condition = true;
+      return true;
     } else {
-      condition = false;
+    return false;
     }
   });
   return condition;

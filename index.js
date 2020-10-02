@@ -59,11 +59,11 @@ const reduceToTotal = (collection, startingPoint = 0) => {
 }
 
 
-const reduceToAllTrue = (collection) => {
-  return collection.reduce((condition, element) => {
-    return condition && !!element;
-  }, true);
-}
+// const reduceToAllTrue = (collection) => {
+//   return collection.reduce((condition, element) => {
+//     return condition && !!element;
+//   }, true);
+// }
 
 const reduceToAllTrue = (collection) => {
   let condition = true;

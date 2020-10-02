@@ -89,14 +89,8 @@ const reduceToAnyTrue = collection => {
     if (!!element) {
       console.log(element)
       return true;
-    //   condition = true;
-    // } else {
-    //   condition = false;
     }
   }
-  // collection.forEach(element => {
-  //
-  // });
-  console.log('HERE')
+
   return false;
 }

@@ -37,7 +37,8 @@ const mapToDouble = collection => {
   const newCollection = [];
   collection.forEach(element => {
     newCollection.push(element * 2);
-  })
+  });
+  return newCollection;
 }
 
 // const mapToSquare = collection => collection.map(x => x * x);

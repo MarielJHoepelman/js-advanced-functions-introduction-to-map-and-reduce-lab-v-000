@@ -66,7 +66,7 @@ const reduceToAllTrue = (collection) => {
 }
 
 const reduceToAllTrue = (collection) => {
-  console.log(collection)
+  console.log(collection);
 }
 
 const reduceToAnyTrue = (collection) => {

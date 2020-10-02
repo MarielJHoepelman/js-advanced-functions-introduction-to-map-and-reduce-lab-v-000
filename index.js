@@ -52,7 +52,7 @@ const mapToSquare = collection => {
 const reduceToTotal = (collection, startingPoint = 0) => {
   let result = startingPoint;
   collection.forEach(element => {
-    result + element
+    result = result + element
   });
   return result;
 }

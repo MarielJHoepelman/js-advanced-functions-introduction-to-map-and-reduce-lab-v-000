@@ -50,7 +50,7 @@ const mapToSquare = collection => {
 // }
 
 const reduceToTotal = (collection, startingPoint = 0) => {
-  let result;
+  let result = startingPoint;
   collection.forEach(element => {
     result + element
   });

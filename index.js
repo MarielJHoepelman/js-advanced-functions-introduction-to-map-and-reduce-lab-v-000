@@ -46,6 +46,7 @@ const mapToSquare = collection => {
 };
 
 //using reduce
+
 // const reduceToTotal = (collection, startingPoint = 0) => {
 //   return collection.reduce((total, value) => {
 //     return total + value;

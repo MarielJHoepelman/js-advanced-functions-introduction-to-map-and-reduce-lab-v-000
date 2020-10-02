@@ -25,13 +25,13 @@ const mapToNoChange = collection => {
 
 // const mapToDouble = collection => collection.map(x => x * 2);
 
-function mapToDouble(collection){
-  const newCollection = [];
-    for (const element of collection) {
-      newCollection.push(element * 2)
-    }
-    return newCollection
-}
+// function mapToDouble(collection){
+//   const newCollection = [];
+//     for (const element of collection) {
+//       newCollection.push(element * 2)
+//     }
+//     return newCollection
+// }
 
 const mapToDouble = collection => {
   const newCollection = [];

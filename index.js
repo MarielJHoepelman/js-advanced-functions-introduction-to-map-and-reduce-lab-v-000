@@ -69,7 +69,7 @@ const reduceToAllTrue = collection => {
   let condition;
 collecion.forEach(element => {
   console.log(element)
-})
+});
 }
 
 const reduceToAnyTrue = (collection) => {

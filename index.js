@@ -72,7 +72,7 @@ const reduceToAllTrue = collection => {
       condition = true
     } else { condition = false }
   });
-  console.log(condition)
+  return condition
 }
 
 const reduceToAnyTrue = (collection) => {

@@ -70,12 +70,11 @@ const reduceToAllTrue = (collection) => {
   collecion.forEach(element => {
     if condition && !!element; {
       condition = true;
-    };
+    }
     else {
       condition = false;
-    };
+    }
   });
-  return condition
 }
 
 const reduceToAnyTrue = (collection) => {

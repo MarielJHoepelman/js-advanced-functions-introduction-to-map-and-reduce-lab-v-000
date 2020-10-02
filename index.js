@@ -82,3 +82,10 @@ const reduceToAnyTrue = (collection) => {
     return condition || !!element;
   }, false);
 }
+
+const reduceToAnyTrue = collection => {
+  let condition;
+  collection.forEach(element => {
+    console.log(element)
+  });
+}

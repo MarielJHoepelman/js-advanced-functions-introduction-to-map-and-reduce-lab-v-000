@@ -89,10 +89,8 @@ const reduceToAnyTrue = collection => {
     if (!!element) {
       // condition = true;
       return true;
-      break;
     } else {
       // condition = false;
-      break;
       return false;
     }
   });

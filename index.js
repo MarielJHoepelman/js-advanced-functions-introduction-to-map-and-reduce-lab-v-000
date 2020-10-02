@@ -14,13 +14,6 @@ const mapToNegativize = collection => {
 };
 
 // const mapToNoChange = collection => collection.map(x => x);
-// function mapToNoChange(collection){
-//   const newCollection = [];
-//     for (const element of collection) {
-//       newCollection.push(element)
-//     }
-//     return newCollection
-// };
 
 const mapToNoChange = collection => {
    const newCollection = [];

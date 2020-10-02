@@ -95,5 +95,5 @@ const reduceToAnyTrue = collection => {
       return false
     }
   });
-  return condition;
+  // return condition;
 }

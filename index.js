@@ -76,12 +76,12 @@ const reduceToAllTrue = collection => {
   });
   return condition;
 }
-
-const reduceToAnyTrue = (collection) => {
-  return collection.reduce((condition, element) => {
-    return condition || !!element;
-  }, false);
-}
+// 
+// const reduceToAnyTrue = (collection) => {
+//   return collection.reduce((condition, element) => {
+//     return condition || !!element;
+//   }, false);
+// }
 
 const reduceToAnyTrue = collection => {
   let condition;

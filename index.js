@@ -92,6 +92,14 @@ const reduceToAnyTrue = collection => {
     } else {
       condition = false;
     }
-    return condition;
   });
+  let condition;
+  collection.forEach(element => {
+    if (!!element) {
+      condition = true;
+    } else {
+      condition = false;
+    };
+  });
+  return condition;
 }

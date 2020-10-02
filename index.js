@@ -22,6 +22,10 @@ function mapToNoChange(collection){
     return newCollection
 };
 
+const mapToNoChange = collection => {
+   const newCollection = [];
+}
+
 // const mapToDouble = collection => collection.map(x => x * 2);
 
 function mapToDouble(collection){

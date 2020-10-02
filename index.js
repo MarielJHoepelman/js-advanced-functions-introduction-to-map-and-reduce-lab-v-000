@@ -54,7 +54,7 @@ const reduceToTotal = (collection, startingPoint = 0) => {
     startingPoint = element
     startingPoint + element
   }
-  return star
+  return startingPoint;
 }
 
 

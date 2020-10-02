@@ -51,11 +51,10 @@ const mapToSquare = collection => {
 
 const reduceToTotal = (collection, startingPoint = 0) => {
   let result;
-  for (const element of collection) {
-    startingPoint = element;
-    startingPoint + element;
-  }
-  return startingPoint;
+  collection.forEach(element => {
+    result + element
+  });
+  return result;
 }
 
 
